@@ -1,0 +1,53 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+button {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 35px;
+}
+
+#clear-key {
+  background: rosybrown;
+  color: black;
+}
+
+#displayValue {
+  background: black;
+  border-radius: 8px;
+  color: white;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#equal-key {
+  background: darkseagreen;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-container {
+  background-image: linear-gradient(white, dodgerblue);
+  border-radius: 8px;
+}
+
+.wrapper {
+  display: grid;
+  gap: 5px 2px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5px 0;
+}
+
+.wrapper-last-row {
+  display: grid;
+  gap: 5px 2px;
+  grid-template-columns: 1fr 2fr;
+}
+
+
