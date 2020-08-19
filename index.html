@@ -3,61 +3,39 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title>Calculator</title>
+  <meta name="description" content="Simple calculator with basic arithmetic operations">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
   <link rel="stylesheet" href="css/main.css">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
+  <div class='main-container'>
     <input type='text' id='displayValue' value='0' readonly />
-    <div>
-        <button type='button' id='1' class='num-key'>0</button>
+    <div class='wrapper'>
+        <button type='button' class='num-key'>0</button>
         <button type='button' class='num-key'>1</button>
         <button type='button' class='num-key'>2</button>
-    </div>
-    <div>
         <button type='button' class='num-key'>3</button>
         <button type='button' class='num-key'>4</button>
         <button type='button' class='num-key'>5</button>
-    </div>
-    <div>
         <button type='button' class='num-key'>6</button>
         <button type='button' class='num-key'>7</button>
         <button type='button' class='num-key'>8</button>
-    </div>
-    <div>
         <button type='button' class='num-key'>9</button>
         <button type='button' class='num-key'>.</button>
         <button type='button' class='operator-key'>+</button>
-    </div>
-    <div>
         <button type='button' class='operator-key'>-</button>
         <button type='button' class='operator-key'>*</button>
         <button type='button' class='operator-key'>/</button>
     </div>
-    <div>
-        <button type='button' id='clear-key'>CL</button>
-        <button type='button' id='equal-key'>=</button>
+    <div class='wrapper-last-row'>
+      <button type='button' id='clear-key'>CL</button>
+      <button type='button' id='equal-key'>=</button>
     </div>
-
-    <script src="js/main.js"></script>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
